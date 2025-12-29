@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/dun-auth0//_next/:path+",
+        "destination": "/dun-auth0/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
